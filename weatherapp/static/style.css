@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: #fff;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	background-color: #d4418e;
+background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+
+
+}
+.container{
+	width: 50%;
+	box-shadow: 0 0px 20px  rgba(0,0,0,0.2);
+	margin: 30px;
+	background-color: #fff;
+}
+.location, .temperature, .city{
+	height: 30vh;
+	width: -30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.form, .btn{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 4px solid #e90e33;
+  border-radius: 20px;
+  width: 100%;
+}
+.form:active, .form:focus, .form.active {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+.btn{
+	background:#09f850;
+ 	border-radius: 10px;
+  	width: 50%;
+ 	position: relative;
+ 	left:25%;
+ 	color: #fff;
+ 	border: none;
+}
+.btn:active, .btn:focus, .btn.active {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+.temperature{
+	flex-direction: column;
+	align-items: center;
+}
+
+.degree-description{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+
+}
+.degree-description span{
+	margin: 10px;
+	font-size: 30px;
+	
+}
+.degree-description h1{
+	font-size: 40px;
+}
+
+.delete a{
+	position: relative;
+	right:20px;
+	top:5px;
+	font-size: 80px;
+	cursor: pointer;
+	text-decoration: none;
+}
